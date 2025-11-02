@@ -2,7 +2,7 @@
 	"name": "canary",
 	"displayName": "Canary Theme VSCode",
 	"description": "Canary Theme VSCode",
-	"version": "1.0.2",
+	"version": "1.0.4",
 	"engines": {
 		"vscode": "^1.105.0"
 	},
