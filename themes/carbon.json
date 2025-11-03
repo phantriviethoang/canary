@@ -116,6 +116,13 @@
 			}
 		},
 		{
+			"scope": ["constant.other.class"],
+			"settings": {
+				"foreground": "#9E74AE",
+				"fontStyle": "italic"
+			}
+		},
+		{
 			"name": "regexp operator.quantifier",
 			"scope": "keyword.operator.quantifier.regexp",
 			"settings": {
@@ -621,9 +628,7 @@
 		},
 		{
 			"name": "Functions",
-			"scope": [
-				"entity.name.function"
-			],
+			"scope": ["entity.name.function"],
 			"settings": {
 				"fontStyle": "bold"
 			}
@@ -727,7 +732,8 @@
 			"name": "Support",
 			"scope": "support.function",
 			"settings": {
-				"foreground": "#F6BEAD"
+				"foreground": "#F6BEAD",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -1161,14 +1167,14 @@
 			"name": "style double quoted array index normal begin",
 			"scope": "punctuation.section.array.begin.php",
 			"settings": {
-				"foreground": "#bac8cb"
+				"foreground": "#EB6689"
 			}
 		},
 		{
 			"name": "style double quoted array index normal end",
 			"scope": "punctuation.section.array.end.php",
 			"settings": {
-				"foreground": "#bac8cb"
+				"foreground": "#EB6689"
 			}
 		},
 		{

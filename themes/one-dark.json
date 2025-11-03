@@ -1259,6 +1259,22 @@
 			"settings": {
 				"foreground": "#c678dd"
 			}
+		},
+
+		{
+			"scope": "variable",
+			"settings": {
+				"foreground": "#abb2bf"
+			}
+		},
+		{
+			"scope": [
+				"variable.other.property",
+				"variable.other.object.property"
+			],
+			"settings": {
+				"foreground": "#e06c75"
+			}
 		}
 	],
 	"semanticHighlighting": true,
@@ -1291,7 +1307,7 @@
 			"foreground": "#56b6c2"
 		},
 		"parameter": {
-			"foreground": "#e06c75",
+			"foreground": "#abb2bf",
 			"fontStyle": "italic"
 		},
 		"parameter.declaration": {
@@ -1299,7 +1315,7 @@
 			"fontStyle": "italic"
 		},
 		"property": {
-			"foreground": "#abb2bf"
+			"foreground": "#e06c75"
 		},
 		"property.declaration": {
 			"foreground": "#e06c75"
@@ -1314,7 +1330,7 @@
 			"foreground": "#e5c07b"
 		},
 		"selfKeyword": {
-			"foreground": "#e06c75"
+			"foreground": "#abb2bf"
 		},
 		"selfKeyword.declaration": {
 			"foreground": "#d19a66",
@@ -1356,6 +1372,18 @@
 		},
 		"xmlDocCommentAttributeQuotes": {
 			"foreground": "#98c379"
+		},
+		"variable": {
+			"foreground": "#abb2bf"
 		}
+		// "parameter": {
+		// 	"foreground": "#abb2bf"
+		// },
+		// "selfKeyword": {
+		// 	"foreground": "#abb2bf"
+		// },
+		// "property": {
+		// 	"foreground": "#e06c75"
+		// }
 	}
 }

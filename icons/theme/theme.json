@@ -3,6 +3,7 @@
     "commitlint": {
       "iconPath": "./icons/commitlint.svg"
     },
+    "database-php": { "iconPath": "./icons/database-php.svg" },
     "components": { "iconPath": "./icons/components.svg" },
     "controllers": { "iconPath": "./icons/controllers.svg" },
     "android": { "iconPath": "./icons/android.svg" },
@@ -2757,6 +2758,8 @@
     "licence.md": "certificate",
     "licence.rst": "certificate",
     "licence.txt": "certificate",
+    "Database.php": "database-php",
+    "db.php": "database-php",
     "vite.config.js": "file_vite",
     "vite.config.cjs": "file_vite",
     "vite.config.ts": "file_vite",
