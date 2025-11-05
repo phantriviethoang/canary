@@ -123,6 +123,14 @@
 			}
 		},
 		{
+			"scope": ["constant.other.php"],
+			"settings": {
+				"foreground": "#9E74AE",
+				"fontStyle": "italic"
+			}
+		},
+
+		{
 			"name": "regexp operator.quantifier",
 			"scope": "keyword.operator.quantifier.regexp",
 			"settings": {
@@ -583,7 +591,7 @@
 			"name": "Language variables",
 			"scope": "variable.language",
 			"settings": {
-				"foreground": "#c8cccd"
+				"foreground": "#9E74AE"
 			}
 		},
 		{
@@ -672,6 +680,20 @@
 				"foreground": "#9e74ae"
 			}
 		},
+
+		{
+			"scope": "variable.other",
+			"settings": {
+				"foreground": "#9e74ae"
+			}
+		},
+		{
+			"scope": "variable.other.property",
+			"settings": {
+				"foreground": "#C8CCCD"
+			}
+		},
+
 		{
 			"name": "Type Name",
 			"scope": "entity.name.type",
