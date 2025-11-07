@@ -652,7 +652,7 @@
 			"name": "Classes",
 			"scope": "support.class, entity.name.type.class",
 			"settings": {
-				"foreground": "#c8cccd"
+				"foreground": "#26BDA4"
 			}
 		},
 		{
@@ -790,13 +790,13 @@
 		{
 			"scope": "punctuation.definition.tag.begin",
 			"settings": {
-				"foreground": "#707070"
+				"foreground": "#727E80"
 			}
 		},
 		{
 			"scope": "punctuation.definition.tag.end",
 			"settings": {
-				"foreground": "#707070"
+				"foreground": "#727E80"
 			}
 		},
 		{
@@ -1820,7 +1820,7 @@
 			"name": "js/ts italic",
 			"scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super",
 			"settings": {
-				"fontStyle": "italic"
+				// "fontStyle": "italic"
 			}
 		},
 		{
