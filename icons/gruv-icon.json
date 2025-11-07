@@ -1,5 +1,53 @@
 {
 	"iconDefinitions": {
+		"next": {
+			"iconPath": "./next.svg"
+		},
+		"layout-blade": {
+			"iconPath": "./layout-blade.svg"
+		},
+		"app-blade": {
+			"iconPath": "./layout-blade.svg"
+		},
+		"create-blade": {
+			"iconPath": "./create-blade.svg"
+		},
+		"edit-blade": {
+			"iconPath": "./edit-blade.svg"
+		},
+		"index-blade": {
+			"iconPath": "./index-blade.svg"
+		},
+		"show-blade": {
+			"iconPath": "./show-blade.svg"
+		},
+		"view-php": {
+			"iconPath": "./view-php.svg"
+		},
+		"web-php": {
+			"iconPath": "./web-php.svg"
+		},
+		"db-php": {
+			"iconPath": "./database-php.svg"
+		},
+		"index-html": {
+			"iconPath": "./index-html.svg"
+		},
+		"index-css": {
+			"iconPath": "./index-css.svg"
+		},
+		"index-js": {
+			"iconPath": "./index-js.svg"
+		},
+		"layout-jsx": {
+			"iconPath": "./layout-jsx.svg"
+		},
+		"layout-tsx": {
+			"iconPath": "./layout-tsx.svg"
+		},
+		"page-layout": {
+			"iconPath": "./page-layout.svg"
+		},
 		"tsconfig": {
 			"iconPath": "./tsconfig.svg"
 		},
@@ -3338,6 +3386,7 @@
 		"tfvars": "terraform",
 		"tfstate": "terraform",
 		"blade.php": "laravel",
+		"view.php": "view-php",
 		"inky.php": "laravel",
 		"applescript": "applescript",
 		"ipa": "applescript",
@@ -3543,9 +3592,29 @@
 	"fileNames": {
 		"tsconfig.json": "tsconfig",
 		"composer.json": "composer",
-		"package.json": "npm",
-		"package-lock.json": "npm",
+		"package.json": "nodejs",
+		"package-lock.json": "nodejs",
 		"artisan": "laravel",
+		"Database.php": "db-php",
+		"db.php": "db-php",
+		"layout.blade.php": "layout-blade",
+		"app.blade.php": "app-blade",
+		"create.blade.php": "create-blade",
+		"edit.blade.php": "edit-blade",
+		"index.blade.php": "index-blade",
+		"show.blade.php": "show-blade",
+		"web.php": "web-php",
+		"index.html": "index-html",
+		"index.js": "index-js",
+		"index.ts": "index-ts",
+		"index.css": "index-css",
+		"layout.jsx": "layout-jsx",
+		"layout.tsx": "layout-tsx",
+		"page.jsx": "page-layout",
+		"page.tsx": "page-layout",
+		"App.jsx": "page-layout",
+		"App.tsx": "page-layout",
+		"next.config.mjs": "next",
 		".phpunit.result.cache": "phpunit",
 		".phpunit-watcher.yml": "phpunit",
 		"phpunit.xml": "phpunit",

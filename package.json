@@ -2,7 +2,7 @@
 	"name": "canary",
 	"displayName": "Canary Theme VSCode",
 	"description": "Canary Theme VSCode",
-	"version": "1.0.9",
+	"version": "1.1.0",
 	"engines": {
 		"vscode": "^1.105.0"
 	},
@@ -455,21 +455,21 @@
 		},
 		"themes": [
 			{
-				"label": "Carbon",
+				"label": "Canary",
 				"uiTheme": "vs-dark",
 				"path": "./themes/carbon.json"
 			}
 		],
 		"iconThemes": [
 			{
-				"id": "icon-1",
-				"label": "Icon 1",
+				"id": "canary-icon",
+				"label": "Canary Icon",
 				"path": "./icons/gruv-icon.json"
 			}
 		],
 		"productIconThemes": [
 			{
-				"id": "Canary Product Icon Theme",
+				"id": "Product Icon Theme",
 				"label": "Canary Product Icon Theme",
 				"path": "./product-icon-themes/canary-product-icon-theme.json"
 			}
