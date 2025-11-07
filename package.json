@@ -458,48 +458,13 @@
 				"label": "Carbon",
 				"uiTheme": "vs-dark",
 				"path": "./themes/carbon.json"
-			},
-			{
-				"label": "JetBrains",
-				"uiTheme": "vs-dark",
-				"path": "./themes/jetbrains.json"
-			},
-			{
-				"label": "Scrimba",
-				"uiTheme": "vs-dark",
-				"path": "./themes/scrimba.json"
-			},
-			{
-				"label": "Natty",
-				"uiTheme": "vs-dark",
-				"path": "./themes/natty.json"
-			},
-			{
-				"label": "One Dark",
-				"uiTheme": "vs-dark",
-				"path": "./themes/one-dark.json"
-			},
-			{
-				"label": "Subliminal",
-				"uiTheme": "vs-dark",
-				"path": "./themes/subliminal.json"
 			}
 		],
 		"iconThemes": [
 			{
 				"id": "icon-1",
 				"label": "Icon 1",
-				"path": "./icons/gruv/gruv-icon.json"
-			},
-			{
-				"id": "icon-2",
-				"label": "Icon 2",
-				"path": "./icons/theme/theme.json"
-			},
-			{
-				"id": "icon-3",
-				"label": "Icon 3",
-				"path": "./icons/file-icon/file-icon.json"
+				"path": "./icons/gruv-icon.json"
 			}
 		],
 		"productIconThemes": [
