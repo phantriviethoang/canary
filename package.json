@@ -2,7 +2,7 @@
 	"name": "canary",
 	"displayName": "Canary Theme VSCode",
 	"description": "Canary Theme VSCode",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"engines": {
 		"vscode": "^1.105.0"
 	},
@@ -19,7 +19,7 @@
 		"configurationDefaults": {
 			"breadcrumbs.enabled": false,
 			"editor.renderLineHighlight": "all",
-			"scm.diffDecorations": "none",
+			"scm.diffDecorations": "all",
 			"editor.glyphMargin": true,
 			"editor.fontSize": 15,
 			"editor.lineHeight": 30,
@@ -91,8 +91,8 @@
 			"workbench.editor.editorActionsLocation": "hidden",
 			"workbench.navigationControl.enabled": false,
 			"window.commandCenter": false,
-			"workbench.colorTheme": "Carbon",
-			"workbench.iconTheme": "icon-1",
+			"workbench.colorTheme": "Canary Theme",
+			"workbench.iconTheme": "Canary Icon",
 			"workbench.productIconTheme": "Canary Product Icon Theme",
 			"workbench.editor.scrollToSwitchTabs": true,
 			"workbench.editor.decorations.badges": false,
@@ -100,6 +100,7 @@
 			"workbench.editor.enablePreviewFromCodeNavigation": true,
 			"workbench.editor.highlightModifiedTabs": true,
 			"workbench.editor.pinnedTabSizing": "compact",
+			"workbench.editor.showTabs": "none",
 			"workbench.statusBar.visible": false,
 			"window.newWindowDimensions": "inherit",
 			"window.title": "${activeEditorShort}",
@@ -455,9 +456,9 @@
 		},
 		"themes": [
 			{
-				"label": "Canary",
+				"label": "Canary Theme",
 				"uiTheme": "vs-dark",
-				"path": "./themes/carbon.json"
+				"path": "./themes/canary.json"
 			}
 		],
 		"iconThemes": [
