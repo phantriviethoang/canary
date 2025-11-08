@@ -16,7 +16,7 @@
 			"fontStyle": "bold"
 		},
 		"variable": "#c9cccd",
-		"parameter": "#d0d6b5",
+		"parameter": "#9E74AE",
 		"property": "#FFA5C3",
 		"namespace": "#f9b5ac",
 		"type": "#f9b5ac",
@@ -25,7 +25,6 @@
 		"number": "#f2c4b3",
 		"comment": {
 			"foreground": "#5d6976"
-			// "fontStyle": "italic"
 		},
 		"macro": "#b87ea2",
 		"enumMember": "#716994"
@@ -684,7 +683,7 @@
 		{
 			"scope": "variable.other",
 			"settings": {
-				"foreground": "#9e74ae"
+				"foreground": "#c9cccd"
 			}
 		},
 		{
@@ -1941,8 +1940,8 @@
 		"editorWidget.background": "#242530",
 		"editorWidget.border": "#242530",
 		"editorSuggestWidget.background": "#242530",
-		"editorSuggestWidget.border": "#213047",
-		"editorSuggestWidget.selectedBackground": "#242530",
+		// "editorSuggestWidget.border": "#213047",
+		"editorSuggestWidget.selectedBackground": "#404754",
 		"editorHoverWidget.background": "#242530",
 		"editorHoverWidget.border": "#213047",
 

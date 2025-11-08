@@ -2,7 +2,7 @@
 	"name": "canary",
 	"displayName": "Canary Theme VSCode",
 	"description": "Canary Theme VSCode",
-	"version": "1.1.1",
+	"version": "1.1.4",
 	"engines": {
 		"vscode": "^1.105.0"
 	},
@@ -19,7 +19,7 @@
 		"configurationDefaults": {
 			"breadcrumbs.enabled": false,
 			"editor.renderLineHighlight": "all",
-			"scm.diffDecorations": "all",
+			"scm.diffDecorations": "gutter",
 			"editor.glyphMargin": true,
 			"editor.fontSize": 15,
 			"editor.lineHeight": 30,
@@ -41,7 +41,7 @@
 			"editor.lineNumbers": "off",
 			"editor.minimap.enabled": false,
 			"editor.minimap.maxColumn": 250,
-			"editor.scrollbar.horizontal": "auto",
+			"editor.scrollbar.horizontal": "hidden",
 			"editor.scrollbar.vertical": "auto",
 			"editor.scrollbar.verticalScrollbarSize": 5,
 			"editor.codeLens": false,
