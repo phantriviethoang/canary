@@ -458,7 +458,7 @@
 			{
 				"label": "Canary Theme",
 				"uiTheme": "vs-dark",
-				"path": "./themes/canary.json"
+				"path": "./themes/theme.json"
 			}
 		],
 		"iconThemes": [
