@@ -36,6 +36,9 @@
 		"index-css": {
 			"iconPath": "./index-css.svg"
 		},
+		"css-color": {
+			"iconPath": "./css-color.svg"
+		},
 		"index-js": {
 			"iconPath": "./index-js.svg"
 		},
@@ -47,6 +50,39 @@
 		},
 		"page-layout": {
 			"iconPath": "./page-layout.svg"
+		},
+		"jsx": {
+			"iconPath": "./jsx.svg"
+		},
+		"tsx": {
+			"iconPath": "./tsx.svg"
+		},
+		"js-color": {
+			"iconPath": "./js-color.svg"
+		},
+		"ts-color": {
+			"iconPath": "./ts-color.svg"
+		},
+		"bootstrap": {
+			"iconPath": "./bootstrap.svg"
+		},
+		"dotenv": {
+			"iconPath": "./dotenv.svg"
+		},
+		"laravel-color": {
+			"iconPath": "./laravel-color.svg"
+		},
+		"nodejs-color": {
+			"iconPath": "./nodejs-color.svg"
+		},
+		"npm-color": {
+			"iconPath": "./npm-color.svg"
+		},
+		"php-color": {
+			"iconPath": "./php-color.svg"
+		},
+		"git-color": {
+			"iconPath": "./git-color.svg"
 		},
 		"tsconfig": {
 			"iconPath": "./tsconfig.svg"
@@ -2040,7 +2076,7 @@
 		"screenshots": "folder-images",
 		"script": "folder-scripts",
 		"scripts": "folder-scripts",
-		"node_modules": "folder-node",
+		"node_modules": "nodejs-color",
 		"js": "folder-javascript",
 		"javascript": "folder-javascript",
 		"javascripts": "folder-javascript",
@@ -3592,11 +3628,13 @@
 	"fileNames": {
 		"tsconfig.json": "tsconfig",
 		"composer.json": "composer",
-		"package.json": "nodejs",
-		"package-lock.json": "nodejs",
-		"artisan": "laravel",
+		"package.json": "npm-color",
+		"package-lock.json": "npm-color",
+		"artisan": "laravel-color",
 		"Database.php": "db-php",
 		"db.php": "db-php",
+		"app.php": "php-color",
+		"index.php": "php-color",
 		"layout.blade.php": "layout-blade",
 		"app.blade.php": "app-blade",
 		"create.blade.php": "create-blade",
@@ -3605,12 +3643,22 @@
 		"show.blade.php": "show-blade",
 		"web.php": "web-php",
 		"index.html": "index-html",
-		"index.js": "index-js",
-		"index.ts": "index-ts",
+        ".env":"dotenv",
+		"bootstrap.js": "bootstrap",
+		"App.js": "js-color",
+		"index.js": "js-color",
+		"data.js": "js-color",
+		"index.ts": "ts-color",
 		"index.css": "index-css",
+		"style.css": "css-color",
+		"styles.css": "css-color",
+		"app.css": "css-color",
+		"App.css": "css-color",
 		"layout.jsx": "layout-jsx",
 		"layout.tsx": "layout-tsx",
 		"page.jsx": "page-layout",
+		"index.jsx": "jsx",
+		"index.tsx": "tsx",
 		"page.tsx": "page-layout",
 		"App.jsx": "page-layout",
 		"App.tsx": "page-layout",
@@ -3722,9 +3770,9 @@
 		"docker-compose.worker.yaml": "docker",
 		".mailmap": "email",
 		".graphqlconfig": "graphql",
-		".gitignore": "git",
+        ".gitignore":"git-color",
 		".gitconfig": "git",
-		".gitattributes": "git",
+		".gitattributes": "git-color",
 		".gitmodules": "git",
 		".gitkeep": "git",
 		"git-history": "git",

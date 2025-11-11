@@ -456,7 +456,7 @@
 		},
 		"themes": [
 			{
-				"label": "Theme",
+				"label": "Index",
 				"uiTheme": "vs-dark",
 				"path": "./themes/index.json"
 			}
