@@ -458,7 +458,7 @@
 			{
 				"label": "Theme",
 				"uiTheme": "vs-dark",
-				"path": "./themes/theme.json"
+				"path": "./themes/index.json"
 			}
 		],
 		"iconThemes": [
