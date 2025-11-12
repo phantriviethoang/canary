@@ -33,6 +33,9 @@
 		"index-html": {
 			"iconPath": "./index-html.svg"
 		},
+		"html-color": {
+			"iconPath": "./html-color.svg"
+		},
 		"index-css": {
 			"iconPath": "./index-css.svg"
 		},
@@ -60,6 +63,9 @@
 		"js-color": {
 			"iconPath": "./js-color.svg"
 		},
+		"javascript-alt": {
+			"iconPath": "./javascript-alt.svg"
+		},
 		"ts-color": {
 			"iconPath": "./ts-color.svg"
 		},
@@ -72,6 +78,9 @@
 		"laravel-color": {
 			"iconPath": "./laravel-color.svg"
 		},
+		"laravel-dark": {
+			"iconPath": "./laravel-dark.svg"
+		},
 		"nodejs-color": {
 			"iconPath": "./nodejs-color.svg"
 		},
@@ -80,6 +89,12 @@
 		},
 		"php-color": {
 			"iconPath": "./php-color.svg"
+		},
+		"php-dark": {
+			"iconPath": "./php-dark.svg"
+		},
+		"php-alt": {
+			"iconPath": "./php-alt.svg"
 		},
 		"git-color": {
 			"iconPath": "./git-color.svg"
@@ -116,6 +131,9 @@
 		},
 		"json": {
 			"iconPath": "./json.svg"
+		},
+		"json-color": {
+			"iconPath": "./json-color.svg"
 		},
 		"blink": {
 			"iconPath": "./blink.svg"
@@ -371,6 +389,9 @@
 		},
 		"vue": {
 			"iconPath": "./vue.svg"
+		},
+		"vue-color": {
+			"iconPath": "./vue-color.svg"
 		},
 		"lua": {
 			"iconPath": "./lua.svg"
@@ -3422,7 +3443,7 @@
 		"tfvars": "terraform",
 		"tfstate": "terraform",
 		"blade.php": "laravel",
-		"view.php": "view-php",
+		"view.php": "php-color",
 		"inky.php": "laravel",
 		"applescript": "applescript",
 		"ipa": "applescript",
@@ -3626,15 +3647,49 @@
 		"gemini": "gemini"
 	},
 	"fileNames": {
+		"settings.json": "json-color",
+		"keybindings.json": "json-color",
 		"tsconfig.json": "tsconfig",
 		"composer.json": "composer",
 		"package.json": "npm-color",
 		"package-lock.json": "npm-color",
+		"App.vue": "vue-color",
+		"Avatar.vue": "vue-color",
+		"Icon.vue": "vue-color",
+		"AppLayout.vue": "vue-color",
+		"Layout.vue": "vue-color",
+		"Welcome.vue": "vue-color",
 		"artisan": "laravel-color",
+		"Authenticator.php": "db-php",
+		"Validator.php": "db-php",
 		"Database.php": "db-php",
+		"User.php": "view-php",
+		"Guest.php": "php_elephant",
+		"Middleware.php": "db-php",
+		"Session.php": "php-dark",
+		"Auth.php": "php-color",
+		"Model.php": "php-alt",
 		"db.php": "db-php",
+		"App.php": "php-color",
 		"app.php": "php-color",
+		"login.php": "php-dark",
+		"register.php": "php-dark",
+		"Router.php": "php-dark",
+		"router.php": "php-dark",
+		"routes.php": "php-dark",
+		"store.php": "view-php",
+		"edit.view.php": "php-dark",
+		"show.view.php": "view-php",
+		"index.view.php": "php-color",
+		"create.view.php": "php-alt",
+		"404.php": "php-alt",
+		"403.php": "php-alt",
+		"functions.php": "php-alt",
+		"bootstrap.php": "php-alt",
 		"index.php": "php-color",
+		"welcome.blade.php": "laravel-color",
+		"login.blade.php": "laravel-dark",
+		"register.blade.php": "laravel-dark",
 		"layout.blade.php": "layout-blade",
 		"app.blade.php": "app-blade",
 		"create.blade.php": "create-blade",
@@ -3642,14 +3697,29 @@
 		"index.blade.php": "index-blade",
 		"show.blade.php": "show-blade",
 		"web.php": "web-php",
-		"index.html": "index-html",
-        ".env":"dotenv",
+		"header.html": "index-html",
+		"footer.html": "index-html",
+		"modal.html": "index-html",
+		"index.html": "html-color",
+		"layout.html": "html-color",
+		"sidebar.html": "html-color",
+		".env": "dotenv",
 		"bootstrap.js": "bootstrap",
-		"App.js": "js-color",
-		"index.js": "js-color",
+		"main.js": "javascript-alt",
+		"app.js": "javascript-alt",
+		"App.js": "javascript-alt",
+		"index.js": "javascript-alt",
+		"api.js": "javascript-alt",
 		"data.js": "js-color",
+		"utils.js": "js-color",
+		"main.ts": "ts-color",
+		"app.ts": "ts-color",
+		"utils.ts": "ts-color",
+		"tests.ts": "ts-color",
+		"ssr.ts": "ts-color",
 		"index.ts": "ts-color",
 		"index.css": "index-css",
+		"theme.css": "css-color",
 		"style.css": "css-color",
 		"styles.css": "css-color",
 		"app.css": "css-color",
@@ -3770,7 +3840,7 @@
 		"docker-compose.worker.yaml": "docker",
 		".mailmap": "email",
 		".graphqlconfig": "graphql",
-        ".gitignore":"git-color",
+		".gitignore": "git-color",
 		".gitconfig": "git",
 		".gitattributes": "git-color",
 		".gitmodules": "git",

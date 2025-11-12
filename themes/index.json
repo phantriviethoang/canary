@@ -78,7 +78,7 @@
 		"peekViewResult.matchHighlightBackground": "#282a36",
 		"peekViewResult.selectionBackground": "#282a36",
 		"peekViewTitle.background": "#232530",
-		"scrollbar.shadow": "#16161C",
+		"scrollbar.shadow": "#232530",
 		"scrollbarSlider.activeBackground": "#6C6F9380",
 		"scrollbarSlider.background": "#6C6F931A",
 		"scrollbarSlider.hoverBackground": "#6C6F934D",
