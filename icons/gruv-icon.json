@@ -3728,6 +3728,9 @@
 		"index.js": "javascript-alt",
 		"api.js": "javascript-alt",
 		"data.js": "js-color",
+		"database.js": "js-color",
+		"db.js": "js-color",
+		"connect.js": "js-color",
 		"server.js": "js-color",
 		"utils.js": "js-color",
 		// file names ts
