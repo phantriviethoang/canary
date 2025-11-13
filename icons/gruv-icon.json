@@ -1,112 +1,13 @@
 {
 	"iconDefinitions": {
-		"next": {
-			"iconPath": "./next.svg"
-		},
-		"layout-blade": {
-			"iconPath": "./layout-blade.svg"
-		},
-		"app-blade": {
-			"iconPath": "./layout-blade.svg"
-		},
-		"create-blade": {
-			"iconPath": "./create-blade.svg"
-		},
-		"edit-blade": {
-			"iconPath": "./edit-blade.svg"
-		},
-		"index-blade": {
-			"iconPath": "./index-blade.svg"
-		},
-		"show-blade": {
-			"iconPath": "./show-blade.svg"
-		},
-		"view-php": {
-			"iconPath": "./view-php.svg"
-		},
-		"web-php": {
-			"iconPath": "./web-php.svg"
-		},
-		"db-php": {
-			"iconPath": "./database-php.svg"
-		},
-		"index-html": {
-			"iconPath": "./index-html.svg"
-		},
-		"html-color": {
-			"iconPath": "./html-color.svg"
-		},
-		"index-css": {
-			"iconPath": "./index-css.svg"
-		},
-		"css-color": {
-			"iconPath": "./css-color.svg"
-		},
-		"index-js": {
-			"iconPath": "./index-js.svg"
-		},
-		"layout-jsx": {
-			"iconPath": "./layout-jsx.svg"
-		},
-		"layout-tsx": {
-			"iconPath": "./layout-tsx.svg"
-		},
-		"page-layout": {
-			"iconPath": "./page-layout.svg"
-		},
-		"jsx": {
-			"iconPath": "./jsx.svg"
-		},
-		"tsx": {
-			"iconPath": "./tsx.svg"
-		},
-		"js-color": {
-			"iconPath": "./js-color.svg"
-		},
-		"javascript-alt": {
-			"iconPath": "./javascript-alt.svg"
-		},
-		"ts-color": {
-			"iconPath": "./ts-color.svg"
-		},
-		"bootstrap": {
-			"iconPath": "./bootstrap.svg"
-		},
 		"dotenv": {
 			"iconPath": "./dotenv.svg"
 		},
-		"laravel-color": {
-			"iconPath": "./laravel-color.svg"
-		},
-		"laravel-dark": {
-			"iconPath": "./laravel-dark.svg"
-		},
-		"nodejs-color": {
-			"iconPath": "./nodejs-color.svg"
-		},
-		"npm-color": {
-			"iconPath": "./npm-color.svg"
-		},
-		"php-color": {
-			"iconPath": "./php-color.svg"
-		},
-		"php-dark": {
-			"iconPath": "./php-dark.svg"
-		},
-		"php-alt": {
-			"iconPath": "./php-alt.svg"
+		"git": {
+			"iconPath": "./git.svg"
 		},
 		"git-color": {
 			"iconPath": "./git-color.svg"
-		},
-		"tsconfig": {
-			"iconPath": "./tsconfig.svg"
-		},
-		"composer": {
-			"iconPath": "./composer.svg"
-		},
-		"git": {
-			"iconPath": "./git.svg"
 		},
 		"c": {
 			"iconPath": "./c.svg"
@@ -147,8 +48,26 @@
 		"python": {
 			"iconPath": "./python.svg"
 		},
+		"index-js": {
+			"iconPath": "./index-js.svg"
+		},
+		"js-color": {
+			"iconPath": "./js-color.svg"
+		},
+		"javascript-alt": {
+			"iconPath": "./javascript-alt.svg"
+		},
+		"bootstrap": {
+			"iconPath": "./bootstrap.svg"
+		},
 		"javascript": {
 			"iconPath": "./javascript.svg"
+		},
+		"ts-color": {
+			"iconPath": "./ts-color.svg"
+		},
+		"tsconfig": {
+			"iconPath": "./tsconfig.svg"
 		},
 		"typescript": {
 			"iconPath": "./typescript.svg"
@@ -208,6 +127,12 @@
 			"iconPath": "./less.svg"
 		},
 		"css": {
+			"iconPath": "./css-color.svg"
+		},
+		"index-css": {
+			"iconPath": "./index-css.svg"
+		},
+		"css-color": {
 			"iconPath": "./css.svg"
 		},
 		"visualstudio": {
@@ -276,6 +201,9 @@
 		"slim": {
 			"iconPath": "./slim.svg"
 		},
+		"composer": {
+			"iconPath": "./composer.svg"
+		},
 		"php": {
 			"iconPath": "./php.svg"
 		},
@@ -285,8 +213,35 @@
 		"php_elephant": {
 			"iconPath": "./php_elephant.svg"
 		},
+		"php-color": {
+			"iconPath": "./php-color.svg"
+		},
+		"php-dark": {
+			"iconPath": "./php-dark.svg"
+		},
+		"php-alt": {
+			"iconPath": "./php-alt.svg"
+		},
+		"view-php": {
+			"iconPath": "./view-php.svg"
+		},
+		"web-php": {
+			"iconPath": "./web-php.svg"
+		},
+		"db-php": {
+			"iconPath": "./database-php.svg"
+		},
 		"hack": {
 			"iconPath": "./hack.svg"
+		},
+		"layout-jsx": {
+			"iconPath": "./layout-jsx.svg"
+		},
+		"page-layout": {
+			"iconPath": "./page-layout.svg"
+		},
+		"jsx": {
+			"iconPath": "./jsx.svg"
 		},
 		"react": {
 			"iconPath": "./react.svg"
@@ -306,14 +261,17 @@
 		"go_gopher": {
 			"iconPath": "./go_gopher.svg"
 		},
-		"nodejs_alt": {
-			"iconPath": "./nodejs_alt.svg"
-		},
 		"django": {
 			"iconPath": "./django.svg"
 		},
 		"html": {
 			"iconPath": "./html.svg"
+		},
+		"index-html": {
+			"iconPath": "./index-html.svg"
+		},
+		"html-color": {
+			"iconPath": "./html-color.svg"
 		},
 		"godot": {
 			"iconPath": "./godot.svg"
@@ -434,6 +392,12 @@
 		},
 		"swift": {
 			"iconPath": "./swift.svg"
+		},
+		"layout-tsx": {
+			"iconPath": "./layout-tsx.svg"
+		},
+		"tsx": {
+			"iconPath": "./tsx.svg"
 		},
 		"react_ts": {
 			"iconPath": "./react_ts.svg"
@@ -660,6 +624,30 @@
 		"laravel": {
 			"iconPath": "./laravel.svg"
 		},
+		"laravel-artisan": {
+			"iconPath": "./laravel-artisan.svg"
+		},
+		"laravel-dark": {
+			"iconPath": "./laravel-dark.svg"
+		},
+		"layout-blade": {
+			"iconPath": "./layout-blade.svg"
+		},
+		"app-blade": {
+			"iconPath": "./layout-blade.svg"
+		},
+		"create-blade": {
+			"iconPath": "./create-blade.svg"
+		},
+		"edit-blade": {
+			"iconPath": "./edit-blade.svg"
+		},
+		"index-blade": {
+			"iconPath": "./index-blade.svg"
+		},
+		"show-blade": {
+			"iconPath": "./show-blade.svg"
+		},
 		"vfl": {
 			"iconPath": "./vfl.svg"
 		},
@@ -699,8 +687,17 @@
 		"nodejs": {
 			"iconPath": "./nodejs.svg"
 		},
+		"nodejs-color": {
+			"iconPath": "./nodejs-color.svg"
+		},
+		"nodejs_alt": {
+			"iconPath": "./nodejs_alt.svg"
+		},
 		"npm": {
 			"iconPath": "./npm.svg"
+		},
+		"npm-color": {
+			"iconPath": "./npm-color.svg"
 		},
 		"yarn": {
 			"iconPath": "./yarn.svg"
@@ -1208,6 +1205,12 @@
 		},
 		"folder-node-open": {
 			"iconPath": "./folder-node-open.svg"
+		},
+		"folder-next": {
+			"iconPath": "./next.svg"
+		},
+		"folder-next-open": {
+			"iconPath": "./next.svg"
 		},
 		"folder-javascript": {
 			"iconPath": "./folder-javascript.svg"
@@ -2098,6 +2101,7 @@
 		"script": "folder-scripts",
 		"scripts": "folder-scripts",
 		"node_modules": "nodejs-color",
+		".next": "folder-next",
 		"js": "folder-javascript",
 		"javascript": "folder-javascript",
 		"javascripts": "folder-javascript",
@@ -2571,7 +2575,8 @@
 		"screenshots": "folder-images-open",
 		"script": "folder-scripts-open",
 		"scripts": "folder-scripts-open",
-		"node_modules": "folder-node-open",
+		"node_modules": "nodejs-color",
+		".next": "folder-next",
 		"js": "folder-javascript-open",
 		"javascript": "folder-javascript-open",
 		"javascripts": "folder-javascript-open",
@@ -3444,6 +3449,7 @@
 		"tfstate": "terraform",
 		"blade.php": "laravel",
 		"view.php": "php-color",
+		"livewire.php": "php-color",
 		"inky.php": "laravel",
 		"applescript": "applescript",
 		"ipa": "applescript",
@@ -3647,19 +3653,22 @@
 		"gemini": "gemini"
 	},
 	"fileNames": {
+		// file names json
 		"settings.json": "json-color",
 		"keybindings.json": "json-color",
 		"tsconfig.json": "tsconfig",
 		"composer.json": "composer",
 		"package.json": "npm-color",
 		"package-lock.json": "npm-color",
+		// file names vue
 		"App.vue": "vue-color",
 		"Avatar.vue": "vue-color",
 		"Icon.vue": "vue-color",
+		"Index.vue": "vue-color",
 		"AppLayout.vue": "vue-color",
 		"Layout.vue": "vue-color",
 		"Welcome.vue": "vue-color",
-		"artisan": "laravel-color",
+		// file names php
 		"Authenticator.php": "db-php",
 		"Validator.php": "db-php",
 		"Database.php": "db-php",
@@ -3678,25 +3687,31 @@
 		"router.php": "php-dark",
 		"routes.php": "php-dark",
 		"store.php": "view-php",
+		// file names view.php
 		"edit.view.php": "php-dark",
 		"show.view.php": "view-php",
 		"index.view.php": "php-color",
 		"create.view.php": "php-alt",
+		// file names php
 		"404.php": "php-alt",
 		"403.php": "php-alt",
 		"functions.php": "php-alt",
 		"bootstrap.php": "php-alt",
 		"index.php": "php-color",
-		"welcome.blade.php": "laravel-color",
+		// file names blade.php
+		"artisan": "laravel-artisan",
+		"welcome.blade.php": "laravel-artisan",
 		"login.blade.php": "laravel-dark",
 		"register.blade.php": "laravel-dark",
 		"layout.blade.php": "layout-blade",
+		"yield.blade.php": "layout-blade",
 		"app.blade.php": "app-blade",
 		"create.blade.php": "create-blade",
 		"edit.blade.php": "edit-blade",
 		"index.blade.php": "index-blade",
 		"show.blade.php": "show-blade",
 		"web.php": "web-php",
+		// file names html
 		"header.html": "index-html",
 		"footer.html": "index-html",
 		"modal.html": "index-html",
@@ -3704,35 +3719,48 @@
 		"layout.html": "html-color",
 		"sidebar.html": "html-color",
 		".env": "dotenv",
+		// file names js
 		"bootstrap.js": "bootstrap",
 		"main.js": "javascript-alt",
+		"_app.js": "javascript-alt",
 		"app.js": "javascript-alt",
 		"App.js": "javascript-alt",
 		"index.js": "javascript-alt",
 		"api.js": "javascript-alt",
 		"data.js": "js-color",
+		"server.js": "js-color",
 		"utils.js": "js-color",
+		// file names ts
 		"main.ts": "ts-color",
 		"app.ts": "ts-color",
 		"utils.ts": "ts-color",
 		"tests.ts": "ts-color",
 		"ssr.ts": "ts-color",
 		"index.ts": "ts-color",
+		// file names css
 		"index.css": "index-css",
-		"theme.css": "css-color",
+		"theme.css": "index-css",
+		"globals.css": "index-css",
+		"app.css": "index-css",
+		"main.css": "index-css",
+		"App.css": "css-color",
 		"style.css": "css-color",
 		"styles.css": "css-color",
-		"app.css": "css-color",
-		"App.css": "css-color",
+		// file names jsx
 		"layout.jsx": "layout-jsx",
-		"layout.tsx": "layout-tsx",
+		"App.jsx": "jsx",
 		"page.jsx": "page-layout",
-		"index.jsx": "jsx",
-		"index.tsx": "tsx",
+		"index.jsx": "page-layout",
+		// file names tsx
+		"index.tsx": "page-layout",
 		"page.tsx": "page-layout",
-		"App.jsx": "page-layout",
-		"App.tsx": "page-layout",
+		"layout.tsx": "layout-tsx",
+		"App.tsx": "tsx",
+		// file names next
 		"next.config.mjs": "next",
+		"next.config.js": "next",
+		"next.config.ts": "next",
+		// end file names
 		".phpunit.result.cache": "phpunit",
 		".phpunit-watcher.yml": "phpunit",
 		"phpunit.xml": "phpunit",
@@ -3867,6 +3895,7 @@
 		".vfl": "vfl",
 		".kl": "kl",
 		"postcss.config.js": "postcss",
+		"postcss.config.mjs": "postcss",
 		".postcssrc.js": "postcss",
 		".postcssrc": "postcss",
 		".postcssrc.json": "postcss",
