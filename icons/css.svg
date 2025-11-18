@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
-    <defs>
-        <clipPath id="clip">
-            <rect width="320" height="35" x="0" y="62.5"/>
-            <rect width="320" height="320" x="0" y="132.5"/>
-        </clipPath>
-        <mask id="mask">
-            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
-            <g stroke="#000" stroke-width="35">
-                <polyline fill="none" points="237.5,0 229.5,80 90.5,80 97.5,150 222.5,150 215,225 160,240 105,225 101.5,190" clip-path="url(#clip)"/>
-                <line x1="238" x2="86" y1="80" y2="150"/>
-            </g>
-        </mask>
-    </defs>
-    <polygon fill="#bfbfbf" stroke="#bfbfbf" stroke-width="20" points="30,10 290,10 260,280 160,310 60,280" mask="url(#mask)"/>
-</svg>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="512px" height="512px"><path fill="#6a9fb5" d="M58.9881325,110.226593h349.8561401l-10.928772,55.5262604H47.8331223L30.8856239,251.712204h349.8561096l-19.5043335,98.0420685l-141.010437,46.7017822L98.0420685,349.7542725l8.3719254-42.5158081H20.4546547L0,410.371582l202.1029053,77.361145l232.9884949-77.361145L512,24.2898941H76.2071686L58.9881325,110.226593z"/></svg>
