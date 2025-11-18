@@ -2,7 +2,7 @@
   "name": "canary",
   "displayName": "Canary Theme VSCode",
   "description": "Canary Theme VSCode",
-  "version": "1.1.13",
+  "version": "1.1.16",
   "engines": {
     "vscode": "^1.105.0"
   },
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "https://github.com/phantriviethoang/canary"
   },
-  "icon": "images/canary.jpg",
+  "icon": "images/logo.jpg",
   "categories": [
     "Themes"
   ],
@@ -33,7 +33,7 @@
       "editor.formatOnSave": true,
       "editor.defaultFormatter": "esbenp.prettier-vscode",
       "editor.autoClosingBrackets": "always",
-      "editor.bracketPairColorization.enabled": false,
+      "editor.bracketPairColorization.enabled": true,
       "editor.autoClosingQuotes": "always",
       "editor.autoIndent": "advanced",
       "editor.autoIndentOnPaste": true,
