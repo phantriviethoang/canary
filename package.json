@@ -2,7 +2,7 @@
   "name": "canary",
   "displayName": "Canary Theme VSCode",
   "description": "Canary Theme VSCode",
-  "version": "1.1.17",
+  "version": "1.1.20",
   "engines": {
     "vscode": "^1.105.0"
   },
@@ -121,23 +121,22 @@
         ".php_cs.dist": "php"
       },
       "files.exclude": {
-        "**/node_modules": false,
-        "**/.eitignore": false,
-        "**/.gitignore": false,
-        "**/.gitattributes": false,
-        "**/.vscode": false,
-        "**/.DS_Store": false,
-        "**/vite.config.js": false,
-        "**/package.json": false,
-        "**/package-lock.json": false,
-        "**/yarn.lock": false,
-        "**/pnpm-lock.yaml": false,
-        "**/bun.lockb": false,
-        "**/eslint.config.*": false,
-        "**/postcss.config.*": false,
-        "**/README.md": false,
-        "**/dist": false,
-        "**/build": false
+        "**/node_modules": true,
+        "**/.gitignore": true,
+        "**/.gitattributes": true,
+        "**/.vscode": true,
+        "**/.DS_Store": true,
+        "**/vite.config.js": true,
+        "**/package.json": true,
+        "**/package-lock.json": true,
+        "**/yarn.lock": true,
+        "**/pnpm-lock.yaml": true,
+        "**/bun.lockb": true,
+        "**/eslint.config.*": true,
+        "**/postcss.config.*": true,
+        "**/README.md": true,
+        "**/dist": true,
+        "**/build": true
       },
       "fileutils.inputBox.pathType": "workspace",
       "fileutils.moveFile.typeahead.enabled": true,
@@ -478,13 +477,33 @@
         "label": "Canary",
         "uiTheme": "vs-dark",
         "path": "./themes/index.json"
+      },
+      {
+        "label": "Carbon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carbon.json"
+      },
+      {
+        "label": "dusk-minimals",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dusk-minimals.json"
       }
     ],
     "iconThemes": [
       {
         "id": "canary-icon",
-        "label": "canary icon",
+        "label": "Canary icon",
         "path": "./icons/gruv-icon.json"
+      },
+      {
+        "id": "dusk-min-icon",
+        "label": "Dusk Minimals icon",
+        "path": "./icons-minimals/dusk-min-icon.json"
+      },
+      {
+        "id": "jb-icon",
+        "label": "JB icon",
+        "path": "./jb/jb-icons.json"
       }
     ],
     "productIconThemes": [
