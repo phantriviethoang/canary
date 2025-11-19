@@ -2,7 +2,7 @@
   "name": "canary",
   "displayName": "Canary Theme VSCode",
   "description": "Canary Theme VSCode",
-  "version": "1.1.20",
+  "version": "1.1.21",
   "engines": {
     "vscode": "^1.105.0"
   },
@@ -487,6 +487,16 @@
         "label": "dusk-minimals",
         "uiTheme": "vs-dark",
         "path": "./themes/dusk-minimals.json"
+      },
+      {
+        "label": "JB Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jb-theme.json"
+      },
+      {
+        "label": "Natty Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/natty.json"
       }
     ],
     "iconThemes": [
@@ -496,14 +506,24 @@
         "path": "./icons/gruv-icon.json"
       },
       {
+        "id": "Charmed Light",
+        "label": "Charmed Light Icon",
+        "path": "./charmed-light-icons/charmed-light.json"
+      },
+      {
+        "id": "cat-dark",
+        "label": "Cat Dark",
+        "path": "./cat-dark-icons/cat-dark.json"
+      },
+      {
         "id": "dusk-min-icon",
-        "label": "Dusk Minimals icon",
+        "label": "Dusk Minimals Icon",
         "path": "./icons-minimals/dusk-min-icon.json"
       },
       {
-        "id": "jb-icon",
-        "label": "JB icon",
-        "path": "./jb/jb-icons.json"
+        "id": "jb-icons",
+        "label": "JB icons",
+        "path": "./jb-icons/jb-icons.json"
       }
     ],
     "productIconThemes": [
