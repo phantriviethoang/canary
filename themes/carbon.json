@@ -42,7 +42,8 @@
 		"window.activeBorder": "#172030",
 		"scrollbar.shadow": "#172030",
 		"input.background": "#172030",
-		"editorWidget.background": "#172030"
+		"editorWidget.background": "#172030",
+		"widget.shadow": "#172030"
 	},
 	"tokenColors": [
 		{

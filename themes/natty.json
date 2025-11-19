@@ -33,6 +33,7 @@
 		"editorWarning.foreground": "#f3f99d",
 		"editorWhitespace.foreground": "#616263",
 		"editorWidget.background": "#242530",
+		"widget.shadow": "#242530",
 		"errorForeground": "#f43e5c",
 		"foreground": "#eeffff",
 		"gitDecoration.conflictingResourceForeground": "#f3f99d",
@@ -114,7 +115,7 @@
 		"editorBracketHighlight.foreground4": "#94D0FF",
 		"editorBracketHighlight.foreground5": "#94D0FF",
 		"editorBracketHighlight.foreground6": "#94D0FF",
-		"editorBracketHighlight.unexpectedBracket.foreground": "#ff1212cc",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#ff1212cc"
 	},
 	"tokenColors": [
 		{

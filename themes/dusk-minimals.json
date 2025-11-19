@@ -90,7 +90,7 @@
         "titleBar.activeBackground": "#1c1c1e",
         "titleBar.activeForeground": "#84868a",
         "titleBar.inactiveBackground": "#1c1c1e",
-        "titleBar.inactiveForeground": "#84868a",
+        "titleBar.inactiveForeground": "#84868a"
     },
     "tokenColors": [
         {
@@ -168,7 +168,7 @@
         },
         {
             "scope": [
-                "entity.name.function",
+                "entity.name.function"
             ],
             "settings": {
                 "fontStyle": "bold"
