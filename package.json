@@ -1,8 +1,8 @@
 {
   "name": "canary",
-  "displayName": "Canary Theme VSCode",
-  "description": "Canary Theme VSCode",
-  "version": "1.1.24",
+  "displayName": "Canary Theme",
+  "description": "Canary Theme",
+  "version": "2.0.2",
   "engines": {
     "vscode": "^1.105.0"
   },
@@ -94,8 +94,8 @@
       "workbench.navigationControl.enabled": false,
       "window.commandCenter": false,
       "workbench.colorTheme": "Canary",
-      "workbench.iconTheme": "canary icon",
-      "workbench.productIconTheme": "Canary Product Icon Theme",
+      "workbench.iconTheme": "canary-icon",
+      "workbench.productIconTheme": "Product Icon Theme",
       "workbench.editor.scrollToSwitchTabs": true,
       "workbench.editor.decorations.badges": false,
       "workbench.editor.decorations.colors": false,
@@ -478,7 +478,7 @@
         "uiTheme": "vs-dark",
         "path": "./themes/canary-theme.json"
       }
-        ],
+    ],
     "iconThemes": [
       {
         "id": "canary-icon",
