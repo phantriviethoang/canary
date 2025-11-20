@@ -2,7 +2,7 @@
   "name": "canary",
   "displayName": "Canary Theme VSCode",
   "description": "Canary Theme VSCode",
-  "version": "1.1.22",
+  "version": "1.1.24",
   "engines": {
     "vscode": "^1.105.0"
   },
@@ -482,6 +482,36 @@
         "label": "Carbon",
         "uiTheme": "vs-dark",
         "path": "./themes/carbon.json"
+      },
+      {
+        "label": "dimmed-soft",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dimmed-soft.json"
+      },
+      {
+        "label": "minn",
+        "uiTheme": "vs-dark",
+        "path": "./themes/minn.json"
+      },
+      {
+        "label": "scrimba",
+        "uiTheme": "vs-dark",
+        "path": "./themes/scrimba.json"
+      },
+      {
+        "label": "the-north",
+        "uiTheme": "vs-dark",
+        "path": "./themes/the-north.json"
+      },
+      {
+        "label": "zero-noob",
+        "uiTheme": "vs-dark",
+        "path": "./themes/zero-noob.json"
+      },
+      {
+        "label": "cat-mocha",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cat-mocha.json"
       },
       {
         "label": "dusk-minimals",
