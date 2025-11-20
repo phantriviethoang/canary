@@ -476,84 +476,14 @@
       {
         "label": "Canary",
         "uiTheme": "vs-dark",
-        "path": "./themes/index.json"
-      },
-      {
-        "label": "Carbon",
-        "uiTheme": "vs-dark",
-        "path": "./themes/carbon.json"
-      },
-      {
-        "label": "dimmed-soft",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dimmed-soft.json"
-      },
-      {
-        "label": "minn",
-        "uiTheme": "vs-dark",
-        "path": "./themes/minn.json"
-      },
-      {
-        "label": "scrimba",
-        "uiTheme": "vs-dark",
-        "path": "./themes/scrimba.json"
-      },
-      {
-        "label": "the-north",
-        "uiTheme": "vs-dark",
-        "path": "./themes/the-north.json"
-      },
-      {
-        "label": "zero-noob",
-        "uiTheme": "vs-dark",
-        "path": "./themes/zero-noob.json"
-      },
-      {
-        "label": "cat-mocha",
-        "uiTheme": "vs-dark",
-        "path": "./themes/cat-mocha.json"
-      },
-      {
-        "label": "dusk-minimals",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dusk-minimals.json"
-      },
-      {
-        "label": "JB Theme",
-        "uiTheme": "vs-dark",
-        "path": "./themes/jb-theme.json"
-      },
-      {
-        "label": "Natty Theme",
-        "uiTheme": "vs-dark",
-        "path": "./themes/natty.json"
+        "path": "./themes/canary-theme.json"
       }
-    ],
+        ],
     "iconThemes": [
       {
         "id": "canary-icon",
         "label": "Canary icon",
         "path": "./icons/gruv-icon.json"
-      },
-      {
-        "id": "Charmed Light",
-        "label": "Charmed Light Icon",
-        "path": "./charmed-light-icons/charmed-light.json"
-      },
-      {
-        "id": "cat-dark",
-        "label": "Cat Dark",
-        "path": "./cat-dark-icons/cat-dark.json"
-      },
-      {
-        "id": "dusk-min-icon",
-        "label": "Dusk Minimals Icon",
-        "path": "./icons-minimals/dusk-min-icon.json"
-      },
-      {
-        "id": "jb-icons",
-        "label": "JB icons",
-        "path": "./jb-icons/jb-icons.json"
       }
     ],
     "productIconThemes": [
