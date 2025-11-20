@@ -2,6 +2,7 @@
 	"name": "JB Theme",
 	"type": "dark",
 	"colors": {
+
 		"activityBar.background": "#172030",
 		"activityBarBadge.background": "#007acc",
 		"editor.background": "#172030",
@@ -44,6 +45,7 @@
 		"input.background": "#172030",
 		"editorWidget.background": "#172030",
 		"widget.shadow": "#172030"
+
 	},
 	"tokenColors": [
 		{
