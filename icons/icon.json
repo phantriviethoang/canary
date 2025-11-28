@@ -502,6 +502,8 @@
     "postcss.config.cjs": "file_postcss",
     "postcss.config.ts": "file_postcss",
     "angular.json": "file_angular",
+    "eslint.config.js": "file_eslint",
+    "eslint.config.ts": "file_eslint",
     ".eslintrc": "file_eslint",
     ".eslintrc.cjs": "file_eslint",
     ".eslintrc.js": "file_eslint",

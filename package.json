@@ -1,8 +1,8 @@
 {
-	"name": "final-new-theme",
-	"displayName": "final-new-theme",
-	"description": "final-new-theme",
-	"version": "1.0.1",
+	"name": "carbon-canary",
+	"displayName": "carbon-canary",
+	"description": "carbon-canary",
+	"version": "1.0.2",
 	"engines": {
 		"vscode": "^1.105.0"
 	},
@@ -481,7 +481,7 @@
 		],
 		"iconThemes": [
 			{
-				"id": "icon",
+				"id": "carbon",
 				"label": "carbon",
 				"path": "./icons/icon.json"
 			}
