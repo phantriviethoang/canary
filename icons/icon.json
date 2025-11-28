@@ -93,6 +93,9 @@
     "file_scss": {
       "iconPath": "./file/scss.svg"
     },
+    "file_svg": {
+      "iconPath": "./file/svg.svg"
+    },
     "file_json": {
       "iconPath": "./file/json.svg"
     },
@@ -569,7 +572,7 @@
     "gif": "file_image",
     "gleam": "file_gleam",
     "ico": "file_image",
-    "svg": "file_image",
+    "svg": "file_svg",
     "ttf": "file_font",
     "woff": "file_font",
     "oft": "file_font",
