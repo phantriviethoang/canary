@@ -126,6 +126,9 @@
     "file_typescript": {
       "iconPath": "./file/typeScript.svg"
     },
+    "file_tsconfig": {
+      "iconPath": "./file/tsconfig.svg"
+    },
     "file_csv": {
       "iconPath": "./file/csv.svg"
     },
@@ -456,6 +459,9 @@
   "fileNames": {
     "artisan": "file_laravel",
     "composer.json": "file_composer",
+    "tsconfig.json": "file_tsconfig",
+    "tsconfig.app.json": "file_tsconfig",
+    "tsconfig.node.json": "file_tsconfig",
     "package.json": "file_npm",
     "package-lock.json": "file_npmLock",
     "dune": "file_dune",
