@@ -135,6 +135,9 @@
     "file_vue": {
       "iconPath": "./file/vueJs.svg"
     },
+    "file_vscode": {
+      "iconPath": "./file/vscode.svg"
+    },
     "file_editorconfig": {
       "iconPath": "./file/editorConfig.svg"
     },
@@ -284,6 +287,9 @@
     },
     "file_vite": {
       "iconPath": "./file/vite.svg"
+    },
+    "file_vim": {
+      "iconPath": "./file/vim.svg"
     },
     "file_postcss": {
       "iconPath": "./file/postcss.svg"
@@ -593,6 +599,7 @@
     "sh": "file_shell",
     "zsh": "file_shell",
     "bash": "file_shell",
+    "bashrc": "file_shell",
     "bat": "file_shell",
     "ps1": "file_shell",
     "h": "file_h",
@@ -689,7 +696,19 @@
     "pdf": "file_pdf",
     "gohtml": "file_go_template",
     "gotmpl": "file_go_template",
-    "groovy": "file_groovy"
+    "groovy": "file_groovy",
+    "vimrc": "file_vim",
+    "ideavimrc": "file_vim",
+    "gvimrc": "file_vim",
+    "exrc": "file_vim",
+    "vim": "file_vim",
+    "viminfo": "file_vim",
+
+        "vsix": "file_vscode",
+    "code-workplace": "file_vscode",
+    "code-workspace": "file_vscode",
+    "code-profile": "file_vscode",
+    "code-snippets": "file_vscode"
   },
   "fonts": [
     {

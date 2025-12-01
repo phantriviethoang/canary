@@ -2,7 +2,7 @@
 	"name": "carbon-canary",
 	"displayName": "carbon-canary",
 	"description": "carbon-canary",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"engines": {
 		"vscode": "^1.105.0"
 	},
@@ -80,7 +80,7 @@
 			"workbench.tips.enabled": false,
 			"workbench.activityBar.location": "hidden",
 			"workbench.sideBar.location": "right",
-			"workbench.tree.indent": 10,
+			"workbench.tree.indent": 12,
 			"workbench.tree.enableStickyScroll": false,
 			"workbench.tree.renderIndentGuides": "none",
 			"workbench.list.smoothScrolling": true,
@@ -168,9 +168,8 @@
 				"storage": true,
 				".phpunit.result.cache": true
 			},
-			"terminal.integrated.defaultProfile.linux": "fish",
-			"terminal.integrated.fontSize": 16,
-			"terminal.integrated.lineHeight": 1.5,
+			"terminal.integrated.fontSize": 15,
+			"terminal.integrated.lineHeight": 1.1,
 			"terminal.integrated.fontFamily": "JetBrains Mono, MonoLisa",
 			"terminal.integrated.enableMultiLinePasteWarning": "never",
 			"terminal.integrated.suggest.enabled": true,
