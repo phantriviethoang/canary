@@ -69,6 +69,9 @@
     "folder_idea": {
       "iconPath": "./folder/folder_idea.svg"
     },
+    "file_nextjs": {
+      "iconPath": "./file/nextjs.svg"
+    },
     "file_text": {
       "iconPath": "./file/text.svg"
     },
@@ -176,6 +179,9 @@
     },
     "file_markdown": {
       "iconPath": "./file/markdown.svg"
+    },
+    "file_readme": {
+      "iconPath": "./file/readme.svg"
     },
     "file_gitignore": {
       "iconPath": "./file/gitignore.svg"
@@ -463,6 +469,10 @@
     ".vscode": "folder_idea"
   },
   "fileNames": {
+    "next.config.js": "file_nextjs",
+    "next.config.mjs": "file_nextjs",
+    "next.config.ts": "file_nextjs",
+    "next.config.mts": "file_nextjs",
     "artisan": "file_laravel",
     "composer.json": "file_composer",
     "tsconfig.json": "file_tsconfig",
@@ -472,14 +482,17 @@
     "package-lock.json": "file_npmLock",
     "dune": "file_dune",
     "dune-projecT": "file_dune",
-    ".gitignore": "file_gitignore",
+    ".gitignore": "file_ignored",
     ".gitattributes": "file_gitignore",
     ".gitmodules": "file_gitignore",
     ".gitkeep": "file_gitignore",
     ".editorconfig": "file_editorconfig",
     ".yarnrc": "file_yarn",
     "yarn.lock": "file_yarn",
-    "README": "file_markdown",
+    "README.md": "file_readme",
+    "readme.rst": "file_readme",
+    "readme.txt": "file_readme",
+    "readme": "file_readme",
     ".dockerignore": "file_ignored",
     "Dockerfile": "file_docker",
     "Dockerfile.dev": "file_docker",
@@ -510,6 +523,7 @@
     "tailwind.config.js": "file_tailwind",
     "tailwind.config.cjs": "file_tailwind",
     "tailwind.config.ts": "file_tailwind",
+    "vite": "file_vite",
     "vite.config.js": "file_vite",
     "vite.config.cjs": "file_vite",
     "vite.config.ts": "file_vite",
@@ -517,6 +531,7 @@
     "postcss.config.cjs": "file_postcss",
     "postcss.config.ts": "file_postcss",
     "angular.json": "file_angular",
+    "eslint": "file_eslint",
     "eslint.config.cjs": "file_eslint",
     "eslint.config.mjs": "file_eslint",
     "eslint.config.json": "file_eslint",
@@ -530,7 +545,7 @@
     ".eslintrc.yml": "file_eslint",
     ".eslintrc.yaml": "file_eslint",
     ".eslintignore": "file_eslint",
-        ".eslintignore-sync": "_file_eslint",
+    ".eslintignore-sync": "_file_eslint",
     ".prettierrc": "file_prettier",
     ".prettierrc.cjs": "file_prettier",
     ".prettierrc.js": "file_prettier",
@@ -707,8 +722,7 @@
     "exrc": "file_vim",
     "vim": "file_vim",
     "viminfo": "file_vim",
-
-        "vsix": "file_vscode",
+    "vsix": "file_vscode",
     "code-workplace": "file_vscode",
     "code-workspace": "file_vscode",
     "code-profile": "file_vscode",
