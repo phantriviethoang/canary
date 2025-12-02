@@ -224,7 +224,7 @@
 		{
 			"scope": "variable.other.constant",
 			"settings": {
-				"foreground": "#C8CCCD"
+				"foreground": "#D0D6B5"
 			}
 		},
 		{
@@ -299,15 +299,14 @@
 				// "foreground": "#9E74AE"
 				"foreground": "#D0D6B5"
 			}
-		},		
+		},
 		{
 			"scope": "variable.other.readwrite.alias",
 			"settings": {
 				"foreground": "#C8CCCD"
 				// "foreground": "#D0D6B5"
 			}
-		},		
-
+		},
 		{
 			"scope": "variable.parameter",
 			"settings": {
@@ -446,7 +445,8 @@
 			"settings": {
 				"foreground": "#C8CCCD"
 			}
-		},		{
+		},
+		{
 			"scope": "variable.language.this",
 			"settings": {
 				"foreground": "#EB6689"
@@ -951,7 +951,8 @@
 			"settings": {
 				"foreground": "#EB6689"
 			}
-		},		{
+		},
+		{
 			"scope": "punctuation.terminator.expression.php",
 			"settings": {
 				"foreground": "#EB6689"
@@ -1018,7 +1019,16 @@
 			}
 		},
 		{
-			"scope": "constant.language.boolean.true.js,constant.language.boolean.true.ts,constant.language.boolean.false.js.jsx,constant.language.boolean.false.ts.tsx",
+			"scope": [
+				"constant.language.boolean.true.js",
+				"constant.language.boolean.true.ts",
+				"constant.language.boolean.false.js",
+				"constant.language.boolean.false.ts",
+				"constant.language.boolean.true.js.jsx",
+				"constant.language.boolean.true.ts.tsx",
+				"constant.language.boolean.false.js.jsx",
+				"constant.language.boolean.false.ts.tsx"
+			],
 			"settings": {
 				"foreground": "#EB6689"
 			}
@@ -1190,7 +1200,7 @@
 				"keyword.operator.assignment"
 			],
 			"settings": {
-				"foreground": "#EB6689"
+				"foreground": "#73A7A7"
 			}
 		},
 		{
@@ -1501,9 +1511,10 @@
 			"settings": {
 				"foreground": "#C8CCCD"
 			}
-		},		{
+		},
+		{
 			"scope": [
-				"entity.name.label",
+				"entity.name.label"
 			],
 			"settings": {
 				"foreground": "#B87EA2"

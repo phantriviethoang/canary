@@ -2,7 +2,7 @@
   "name": "carbon-canary",
   "displayName": "carbon-canary",
   "description": "carbon-canary",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "engines": {
     "vscode": "^1.105.0"
   },
@@ -483,11 +483,6 @@
         "id": "carbon",
         "label": "carbon",
         "path": "./icons/icon.json"
-      },
-      {
-        "id": "carbon2",
-        "label": "carbon2",
-        "path": "./icons/icon2.json"
       }
     ],
     "productIconThemes": [
