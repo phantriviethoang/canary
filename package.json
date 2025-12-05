@@ -2,7 +2,7 @@
   "name": "carbon-canary",
   "displayName": "carbon-canary",
   "description": "carbon-canary",
-  "version": "1.0.8",
+  "version": "1.0.11",
   "engines": {
     "vscode": "^1.105.0"
   },
@@ -120,12 +120,22 @@
         ".php_cs.dist": "php"
       },
       "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
         "**/node_modules": true,
+        "**/.eslintrc.json": true,
         "**/.gitignore": true,
         "**/.gitattributes": true,
         "**/.vscode": true,
-        "**/.DS_Store": true,
         "**/vite.config.js": true,
+        "**/jsconfig.json": true,
+        "**/tsconfig.json": true,
+        "**/next.config.*": true,
+        "**/next-env.d.ts": true,
+        "**/tailwind.config.js": true,
         "**/package.json": true,
         "**/package-lock.json": true,
         "**/yarn.lock": true,
@@ -135,7 +145,9 @@
         "**/postcss.config.*": true,
         "**/README.md": true,
         "**/dist": true,
-        "**/build": true
+        "**/build": true,
+        "**/.idea": true,
+        "**/.next": true
       },
       "fileutils.inputBox.pathType": "workspace",
       "fileutils.moveFile.typeahead.enabled": true,
@@ -488,7 +500,7 @@
       {
         "id": "carbon",
         "label": "carbon",
-        "path": "./product-icon-themes/product-icon-theme.json"
+        "path": "./product-icon-themes/icons-carbon.json"
       }
     ]
   },

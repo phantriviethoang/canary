@@ -201,6 +201,17 @@
 			"scope": "punctuation.separator.key-value",
 			"settings": {
 				"foreground": "#EB6689"
+				// "foreground": "#73A7A7"
+			}
+		},
+		{
+			"scope": [
+				"meta.attribute.class.html",
+				"punctuation.separator.key-value.html"
+			],
+			"settings": {
+				// "foreground": "#EB6689"
+				"foreground": "#73A7A7"
 			}
 		},
 		{
