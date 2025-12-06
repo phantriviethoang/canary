@@ -2,7 +2,7 @@
   "name": "carbon-canary",
   "displayName": "carbon-canary",
   "description": "carbon-canary",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "engines": {
     "vscode": "^1.105.0"
   },

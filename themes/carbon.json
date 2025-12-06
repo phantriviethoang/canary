@@ -241,7 +241,14 @@
 		{
 			"scope": "variable.other.constant",
 			"settings": {
-				"foreground": "#D0D6B5"
+				// "foreground": "#D0D6B5"
+				"foreground": "#C8CCCD"
+			}
+		},
+		{
+			"scope": "variable.other.global.safer.php",
+			"settings": {
+				"foreground": "#9E74AE"
 			}
 		},
 		{
@@ -314,7 +321,7 @@
 			"scope": "variable.other.readwrite,support.variable.property,support.variable.object.process,support.variable.object.node",
 			"settings": {
 				// "foreground": "#9E74AE"
-				"foreground": "#D0D6B5"
+				// "foreground": "#D0D6B5"
 			}
 		},
 		{
@@ -422,6 +429,12 @@
 			}
 		},
 		{
+			"scope": "keyword.operator.null-coalescing.php",
+			"settings": {
+				"foreground": "#EB6689"
+			}
+		},
+		{
 			"scope": "keyword.operator.assignment.compound",
 			"settings": {
 				"foreground": "#EB6689"
@@ -458,6 +471,18 @@
 			}
 		},
 		{
+			"scope": "variable.other.global.php",
+			"settings": {
+				"foreground": "#9E74AE"
+			}
+		},
+		{
+			"scope": "variable.other.property.php",
+			"settings": {
+				"foreground": "#C8CCCD"
+			}
+		},
+		{
 			"scope": "variable.language",
 			"settings": {
 				"foreground": "#C8CCCD"
@@ -466,7 +491,7 @@
 		{
 			"scope": "variable.language.this",
 			"settings": {
-				"foreground": "#EB6689"
+				"foreground": "#9E74AE"
 			}
 		},
 		{
@@ -529,7 +554,8 @@
 		{
 			"scope": "variable.other.class.php",
 			"settings": {
-				"foreground": "#9E74AE"
+				"foreground": "#9E74AE",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -619,7 +645,9 @@
 		},
 		{
 			"scope": "meta.tag.attributes keyword.operator.assignment",
-			"settings": { "foreground": "#73A7A7" }
+			"settings": {
+				"foreground": "#73A7A7"
+			}
 		},
 		{
 			"scope": ["meta.tag.metadata.doctype.html entity.name.tag.html"],
@@ -643,6 +671,20 @@
 			"scope": "constant.other.symbol",
 			"settings": {
 				"foreground": "#EB6689"
+			}
+		},
+		{
+			"scope": "constant.other.class",
+			"settings": {
+				"foreground": "#9E74AE",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "constant.other.php",
+			"settings": {
+				"foreground": "#9E74AE",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -965,15 +1007,33 @@
 			}
 		},
 		{
-			"scope": "storage.type.php,meta.other.type.phpdoc.php,keyword.other.type.php,keyword.other.array.phpdoc.php",
+			"scope": "meta.other.type.phpdoc.php,keyword.other.array.phpdoc.php",
 			"settings": {
 				"foreground": "#C8CCCD"
+			}
+		},
+		{
+			"scope": "keyword.other.type.php",
+			"settings": {
+				"foreground": "#EB6689"
+			}
+		},
+		{
+			"scope": "storage.type.php,",
+			"settings": {
+				"foreground": "#EB6689"
 			}
 		},
 		{
 			"scope": "meta.function-call.php,meta.function-call.object.php,meta.function-call.static.php",
 			"settings": {
 				"foreground": "#FFB1A9"
+			}
+		},
+		{
+			"scope": "meta.method-call.static.php entity.name.function.php",
+			"settings": {
+				"fontStyle": "italic bold"
 			}
 		},
 		{
@@ -995,9 +1055,16 @@
 			}
 		},
 		{
-			"scope": "support.constant.ext.php,support.constant.std.php,support.constant.core.php,support.constant.parser-token.php",
+			"scope": "support.constant.core.php,support.constant.parser-token.php",
 			"settings": {
 				"foreground": "#F6BEAD"
+			}
+		},
+		{
+			"scope": "support.constant.ext.php,support.constant.std.php",
+			"settings": {
+				"foreground": "#9E74AE",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -1063,10 +1130,19 @@
 				"constant.language.boolean.true.js.jsx",
 				"constant.language.boolean.true.ts.tsx",
 				"constant.language.boolean.false.js.jsx",
-				"constant.language.boolean.false.ts.tsx"
+				"constant.language.boolean.false.ts.tsx",
+				"constant.language.null.js.jsx",
+				"constant.language.null.ts.tsx"
 			],
 			"settings": {
 				"foreground": "#EB6689"
+			}
+		},
+		{
+			"scope": "constant.language.php",
+			"settings": {
+				"foreground": "#9E74AE",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -1220,6 +1296,12 @@
 		},
 		{
 			"scope": ["keyword.operator.assignment.php"],
+			"settings": {
+				"foreground": "#EB6689"
+			}
+		},
+		{
+			"scope": ["keyword.operator.class.php"],
 			"settings": {
 				"foreground": "#EB6689"
 			}
@@ -1486,7 +1568,7 @@
 			}
 		},
 		{
-			"scope": [" meta.brace.square"],
+			"scope": ["meta.brace.square"],
 			"settings": {
 				"foreground": "#EB6689"
 			}
@@ -1494,7 +1576,8 @@
 		{
 			"scope": "comment, punctuation.definition.comment",
 			"settings": {
-				"foreground": "#5D6976"
+				"foreground": "#5D6976",
+				"fontStyle": "italic"
 			}
 		},
 		{
