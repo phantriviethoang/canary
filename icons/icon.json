@@ -45,6 +45,9 @@
 		"folder_resources": {
 			"iconPath": "./folder/folder_resources.svg"
 		},
+		"folder_assets": {
+			"iconPath": "./folder/folder_assets.svg"
+		},
 		"folder_run": {
 			"iconPath": "./folder/folder_run.svg"
 		},
@@ -312,6 +315,9 @@
 		"file_vite": {
 			"iconPath": "./file/vite.svg"
 		},
+		"file_vitest": {
+			"iconPath": "./file/vitest.svg"
+		},
 		"file_vim": {
 			"iconPath": "./file/vim.svg"
 		},
@@ -467,7 +473,7 @@
 		"migrations": "folder_migrations",
 		"internal": "folder_module",
 		"pkg": "folder_package",
-		"assets": "folder_resources",
+		"assets": "folder_assets",
 		"resources": "folder_resources",
 		"scripts": "folder_run",
 		"run": "folder_run",
@@ -553,6 +559,12 @@
 		"vite.config.js": "file_vite",
 		"vite.config.cjs": "file_vite",
 		"vite.config.ts": "file_vite",
+		"vitest.config.ts": "file_vitest",
+		"vitest.config.mts": "file_vitest",
+		"vitest.config.cts": "file_vitest",
+		"vitest.config.js": "file_vitest",
+		"vitest.config.mjs": "file_vitest",
+		"vitest.config.cjs": "file_vitest",
 		"postcss.config.js": "file_postcss",
 		"postcss.config.cjs": "file_postcss",
 		"postcss.config.ts": "file_postcss",
